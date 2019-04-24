@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Computer Information Systems</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="Final.css" rel="stylesheet" type="text/css">
+    <script>
+
+        function getGrade(letterGrade){
+            if (letterGrade == "A") {
+                return 4;
+            } else if (letterGrade == "B"){
+                return 3;
+            }else if (letterGrade == "C"){
+                return 2;
+            }else if (letterGrade == "D"){
+                return alert("You are failing");
+            }else {
+                return 0;
+            }
+
+        }
+        function calc(){
+
+            var ocount = 0 , ogpa = 0
+            var bcount = 0 , bgpa = 0
+            var mcount = 0 , mgpa = 0
+
+            var geno00 = document.getElementById("geno00").value;
+            var geno000 = document.getElementById("geno000").value;
+            var geno01 = document.getElementById("geno01").value;
+            var geno02 = document.getElementById("geno02").value;
+            var geno03 = document.getElementById("geno03").value;
+            var geno04 = document.getElementById("geno04").value;
+            var busn01 = document.getElementById("busn01").value;
+            var geno05 = document.getElementById("geno05").value;
+            var busn02 = document.getElementById("busn02").value;
+            var busn03 = document.getElementById("busn03").value;
+            var geno06 = document.getElementById("geno06").value;
+            var geno07 = document.getElementById("geno07").value;
+            var geno08 = document.getElementById("geno08").value;
+            var geno09 = document.getElementById("geno09").value;
+            var geno10 = document.getElementById("geno10").value;
+            var geno11 = document.getElementById("geno11").value;
+            var busn04 = document.getElementById("busn04").value;
+            var busn05 = document.getElementById("busn05").value;
+            var busn06 = document.getElementById("busn06").value;
+            var majr01 = document.getElementById("majr01").value;
+            var busn07 = document.getElementById("busn07").value;
+            var busn08 = document.getElementById("busn08").value;
+            var geno12 = document.getElementById("geno12").value;
+            var majr02 = document.getElementById("majr02").value;
+            var majr03 = document.getElementById("majr03").value;
+            var majr04 = document.getElementById("majr04").value;
+            var majr05 = document.getElementById("majr05").value;
+            var geno13 = document.getElementById("geno13").value;
+            var busn09 = document.getElementById("busn09").value;
+            var busn10 = document.getElementById("busn10").value;
+            var busn11 = document.getElementById("busn11").value;
+            var busn12 = document.getElementById("busn12").value;
+            var busn13 = document.getElementById("busn13").value;
+            var majr06 = document.getElementById("majr06").value;
+            var majr07 = document.getElementById("majr07").value;
+            var majr08 = document.getElementById("majr08").value;
+            var busn14 = document.getElementById("busn14").value;
+            var majr09 = document.getElementById("majr09").value;
+            var geno14 = document.getElementById("geno14").value;
+            var majr10 = document.getElementById("majr10").value;
+            var busn15 = document.getElementById("busn15").value;
+
+
+
+
+            if (geno00 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno00);
+
+            }
+
+            if (geno000 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno000);
+
+            }
+
+            if (geno01 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno01);
+
+            }
+            if (geno02 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno02);
+
+            }
+            if (geno03 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno03);
+
+            }
+            if (geno04 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno04);
+
+            }
+            if (busn01 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn01);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn01);
+
+            }
+            if (geno05 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno05);
+
+            }
+            if (busn02 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn02);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn02);
+            }
+            if (busn03 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn03);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn03);
+            }
+            if (geno06 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno06);
+
+            }
+            if (geno07 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno07);
+
+            }
+            if (geno08 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno08);
+
+            }
+            if (geno09 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno09);
+
+            }
+            if (geno10 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno10);
+
+            }
+            if (geno11 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno11);
+
+            }
+            if (busn04 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn04);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn04);
+            }
+            if (busn05 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn05);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn05);
+            }
+            if (busn06 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn06);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn06);
+            }
+            if (majr01 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr01);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr01);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr01);}
+
+            if (busn07 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn07);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn07);
+            }
+            if (busn08 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn08);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn08);
+            }
+            if (geno12 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno12);
+
+            }
+            if (majr02 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr02);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr02);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr02);
+            }
+            if (majr03 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr03);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr03);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr03);
+            }
+            if (majr04 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr04);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr04);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr04);
+            }
+            if (majr05 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr05);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr05);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr05);
+            }
+            if (geno13 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno13);
+
+            }
+            if (busn09 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn09);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn09);
+            }
+            if (busn10 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn10);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn10);
+            }
+            if (busn11 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn11);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn11);
+            }
+            if (busn12 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn12);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn11);
+            }
+            if (busn13 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn13);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn13);
+            }
+            if (majr06 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr06);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr06);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr06);
+            }
+            if (majr07 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr07);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr07);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr07);
+            }
+            if (majr08 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr08);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr08);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr08);
+            }
+            if (busn14 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn14);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn14);
+            }
+            if (majr09 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr09);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr09);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr09);
+            }
+            if (geno14 != "-"){
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(geno14);
+
+            }
+            if (majr10 != "-"){
+                mcount = mcount + 1;
+                mgpa = mgpa + getGrade(majr10);
+
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(majr10);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(majr10);
+            }
+            if (busn15 != "-"){
+                bcount = bcount + 1;
+                bgpa = bgpa + getGrade(busn15);
+
+                ocount = ocount + 1;
+                ogpa = ogpa + getGrade(busn15);
+            }
+
+
+            document.getElementById("ogpa").innerText = ogpa / ocount ;
+            document.getElementById("bgpa").innerText = bgpa / bcount ;
+            document.getElementById("mgpa").innerText = mgpa / mcount ;
+
+        }
+
+        if ("mpa" <= 2.0){
+            alert("you are failing");}
+
+    </script>
+
+
+</head>
+<body>
+
+
+
+<div class="mx-auto text-center" >
+    <h1 >Howard University School of Business</h1>
+</div>
+
+<blockquote class="blockquote text-center">
+
+</blockquote>
+
+<blockquote class="blockquote text-center">
+    <h2 class="mb-0">COMPUTER INFORMATION SYSTEMS</h2>
+</blockquote>
+
+<blockquote class="blockquote text-center">
+    <p class="mb-0">1st Year</p>
+</blockquote>
+<div class="row mx-auto-n5">
+    <div class="col px-sm-5"><div class="p-2  ">First Semester</div></div>
+    <div class="col px-sm-5"><div class="p-2  ">Second Semester</div></div>
+</div>
+
+<!--    Classes of Year 1   -->
+<table class="table table-bordered table-dark table-hover w-100 p-3">
+
+    <thead>
+    <tr>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">ENGL-103</th>
+        <td> English Composition</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno00">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+        <th scope="row">ENGL-104</th>
+        <td>Writing, Literacy, and Discourse</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno000">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+
+    </tr>
+    <tr>
+        <th scope="row">MATH-009</th>
+        <td>College Algebra I</td>
+        <td>4</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno01">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">MATH-027-</th>
+        <td>Applied Calculus</td>
+        <td>4</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">SPAN-002</th>
+        <td>Spanish II</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno03">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">SPAN-001</th>
+        <td>Spanish I</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno04">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">INFO-010</th>
+        <td>Business Problem Solving</td>
+        <td>2</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn01">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">PSYC-05</th>
+        <td>Intro to Psychology</td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="geno05">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    <tr>
+        <th scope="row">MGMT-010</th>
+        <td>Business Orientation I</td>
+        <td>1</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">MGMT-011</th>
+        <td>Business Orientation II</td>
+        <td>1</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="busn03">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+
+    <tr>
+        <th scope="row">AFRO-005</th>
+        <td>Intro to Afro-American Studies</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno06">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">HHPL-014</th>
+        <td>Elementary Judo</td>
+        <td>1</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="geno07">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    </tbody>
+</table>
+
+<!--    Year 2 Classes   -->
+
+<blockquote class="blockquote text-center">
+    <p class="mb-0">2nd Year</p>
+</blockquote>
+<div class="row mx-auto-n5">
+    <div class="col px-sm-5"><div class="p-2  ">First Semester</div></div>
+    <div class="col px-sm-5"><div class="p-2  ">Second Semester</div></div>
+</div>
+
+<table class="table table-bordered table-dark table-hover w-100 p-3">
+
+    <thead>
+    <tr>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">ECON-180</th>
+        <td> Statistics- Bus & Economics</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno08">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+        <th scope="row">POLS-001</th>
+        <td>Intro to Poli-Sci</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno09">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+
+    </tr>
+    <tr>
+        <th scope="row">ECON-001</th>
+        <td>Principles of Economics I </td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno10">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">ECON-002</th>
+        <td>Principles of Economics II</td>
+        <td>4</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno11">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">ACCT-201</th>
+        <td><a href="https://bschool.howard.edu/majors/accounting/"target="_blank">Accounting I </a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn04">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">ACCT-002</th>
+        <td><a href="https://bschool.howard.edu/majors/accounting/"target="_blank">Accounting II</a> </td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn05">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">INFO-204</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">MIS</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn06">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">INFO-210</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Intro to Software Design</a></td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="majr01">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    <tr>
+        <th scope="row">MGMT-010</th>
+        <td>Career Counseling</td>
+        <td>1</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn07">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">BCOM-320</th>
+        <td>Business Communication</td>
+        <td>2</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="busn08">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+
+    <tr>
+        <th scope="row">HHPL-159</th>
+        <td>Health Science</td>
+        <td>1</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno12">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+
+    </tbody>
+</table>
+
+<!--    Year 3 Classes   -->
+<blockquote class="blockquote text-center">
+    <p class="mb-0">3rd Year</p>
+</blockquote>
+<div class="row mx-auto-n5">
+    <div class="col px-sm-5"><div class="p-2  ">First Semester</div></div>
+    <div class="col px-sm-5"><div class="p-2  ">Second Semester</div></div>
+</div>
+
+<table class="table table-bordered table-dark table-hover w-100 p-3">
+
+    <thead>
+    <tr>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">INFO-311</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank"> Quantitative Bus Analysis</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+        <th scope="row">INFO-335</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Production & Operations Mgmt</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr03">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+
+    </tr>
+    <tr>
+        <th scope="row">INFO-330</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Database Management</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr04">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">INFO-325-</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Intro to Data & Network Comm</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr05">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">Bio-021</th>
+        <td>Life Science</td>
+        <td>4</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno13">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">FINA-311</th>
+        <td>Finance Principles </td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn09">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">MGMT-301</th>
+        <td>Management & Org Behavior</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn10">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">BLAW-305</th>
+        <td>Business Law</td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="busn11">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    <tr>
+        <th scope="row">MKTG-301</th>
+        <td>Principles of Marketing</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn12">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">INFO-370</th>
+        <td>Systems Analysis & Design</td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="busn13">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+
+    </tbody>
+</table>
+
+
+
+
+<!--    Year 4 Classes   -->
+<blockquote class="blockquote text-center">
+    <p class="mb-0">4th Year</p>
+</blockquote>
+<div class="row mx-auto-n5">
+    <div class="col px-sm-5"><div class="p-2  ">First Semester</div></div>
+    <div class="col px-sm-5"><div class="p-2  ">Second Semester</div></div>
+</div>
+
+<table class="table table-bordered table-dark table-hover w-100 p-3">
+
+    <thead>
+    <tr>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+        <th scope="col">Class Code</th>
+        <th scope="col">Class</th>
+        <th scope="col">Hours</th>
+        <th scope="col">Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">INFO-221</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Web Authoring Tools</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr06">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+        <th scope="row">INFO-398</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Information Systems Consulting</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr07">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+
+    </tr>
+    <tr>
+        <th scope="row">INFO-321</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Intro to Network Security</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr08">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">MGMT-351-</th>
+        <td>Entrepreneurship</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn14">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">INFO-385</th>
+        <td><a href="https://bschool.howard.edu/majors/computer-information-systems/"target="_blank">Intro to eBusiness</a></td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr09">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">Phil-005</th>
+        <td>Principals of Reasoning</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="geno14">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+            </select>
+        </div></td>
+    </tr>
+    <tr>
+        <th scope="row">BECN-320</th>
+        <td>Managerial Economics</td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="busn15">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>   <th scope="row">INFO-386</th>
+        <td>Human Computer Interaction</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="majr10">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+    <tr>
+        <th scope="row">AFRO-128</th>
+        <td>Hip-Hop</td>
+        <td>3</td>
+        <td><div class="form-group">
+            <select class="form-control" id="busn02">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+        <th scope="row">MGMT-390</th>
+        <td>Business Policy</td>
+        <td>3</td>
+        <td> <div class="form-group">
+            <select class="form-control" id="majr11">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+
+            </select>
+        </div></td>
+
+    </tbody>
+</table>
+
+
+<div class="row-center">
+    <button type="button" onclick="calc()">Calculate</button>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            Overall GPA
+        </div>
+        <div class="col-sm">
+            Business GPA
+        </div>
+        <div class="col-sm">
+            Major GPA
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm"id="ogpa">
+            0.0
+        </div>
+        <div class="col-sm" id="bgpa">
+            0.0
+        </div>
+        <div class="col-sm" id="mgpa">
+            0.0
+        </div>
+    </div>
+</div>
+<div class="text-center">
+
+    <p1>Any class earining a "D" grade in <u>ANY</u> major  course, you must retake the course</p1>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html><!DOCTYPE html>
+</body>
